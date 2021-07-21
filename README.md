@@ -10,5 +10,5 @@ https: 127.0.0.1:8118
 socks5: 127.0.0.1:9050
 
 Приложения, которые не поддерживают прокси придётся запускать из консоли с префиксом proxychains, например:
-privoxy apt-get install ...
+proxychains apt-get install ...
 
